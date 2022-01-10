@@ -5,7 +5,7 @@ import App from './app';
 import {GlobalStyles} from './global-styes';
 import { firebase } from './lib/firebase.prod';
 import { FirebaseContext } from './context/firebase';
-
+ 
 render(
  <>
  <FirebaseContext.Provider value={{ firebase }}>
